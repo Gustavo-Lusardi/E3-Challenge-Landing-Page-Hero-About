@@ -35,6 +35,9 @@ header {
     text-decoration: none;
 
 }
+a:hover{
+    color: rgb(4, 0, 255);
+}
 section{
     max-width: 1200px;
     display: flex;
@@ -67,4 +70,60 @@ font-size: 50px;
 .info p{
     text-align: center;
     
+}
+/* ----------------------------------hero---------------------------------------- */
+.Products{
+    display: flex;
+    flex-direction: column;
+    gap: 40PX;
+}
+.Products h2{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Hero-Card-Men, .Hero-Card-Women{
+    display: flex;
+    gap: 20px;
+}
+.Hero-Card-Men img{
+width: 400px;
+height: 500px;
+}
+.Hero-Card-Women img{
+    width: 400px;
+    height: 500px;
+    }
+    button{
+        font-size: 16px;
+        padding: 4px;
+        background-color: rgb(91, 91, 235);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(31, 28, 28);
+    
+}
+.Networks{
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.info h2{
+    color: white;
 }
